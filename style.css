@@ -1,0 +1,81 @@
+* {
+    Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background:linear-gradient(90deg,#5900ff, #9e64e0);
+    font:normal 15px Arial;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+header {
+    color:#fff;
+    text-align:center;
+    text-shadow:5px 5px 3px #000;
+}
+
+h1 {
+    font-size:44px;
+}
+
+main {
+    background-color:#fff;
+    width:400px;
+    padding:15px;
+    border-radius:5px;
+    box-shadow:5px 5px 20px #00000f;
+    margin-bottom:10px;
+}
+
+section {
+    text-align:center;
+    padding:8px;
+}
+
+p {
+    font-weight:bold;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color:#fff;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    border:solid 1px #000;
+}
+input[type="radio"]:checked{
+    background:linear-gradient(90deg,#5900ff, #9e64e0);
+}
+
+#verificar {
+    background:linear-gradient(90deg, #9e64e0, #5900ff);
+    width:100px;
+    height:25px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+#verificar:hover {
+    color:#fff;
+}
+
+#res {
+    display:flex;
+    text-align:center;
+    flex-direction:column-reverse;
+    margin:auto;
+    width:150px;
+    gap:20px;
+    font-weight:bold;
+}
+
+footer a {
+    text-align:center;
+    color:#fff;
+    font-style:italic;
+    text-decoration:none;
+}

@@ -1,0 +1,27 @@
+@media (max-width:480px){
+
+    body {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    herder{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    header h1 {
+        font-size:35px;
+    }
+
+    main {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:300px;
+    }
+}
